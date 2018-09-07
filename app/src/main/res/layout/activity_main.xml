@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    android:paddingLeft="90dp"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/svnit"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="204dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="WELCOME TO      SVNIT BUS TRACKER APP"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="SIGN IN"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="378dp" />
+</LinearLayout>
